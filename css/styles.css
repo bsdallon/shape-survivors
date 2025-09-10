@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: 'Bungee', Arial, sans-serif;
+    background:
+        linear-gradient(135deg, #1a1a2e 0%, #16213e 100%),
+        repeating-linear-gradient(0deg, #23236a 0px, #23236a 2px, transparent 2px, transparent 40px),
+        repeating-linear-gradient(90deg, #23236a 0px, #23236a 2px, transparent 2px, transparent 40px);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+
+
+h1 {
+    color: #ffe600;
+    text-shadow:
+        2px 2px 0 #00c3ff,
+        4px 4px 0 #23236a,
+        0 0 4px #ffe600;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    font-family: 'Bungee', Arial, sans-serif;
+    border: 3px solid #00c3ff;
+    border-radius: 20px;
+    background: rgba(34, 34, 106, 0.7);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+    width: 80vw;
+    box-shadow:
+        0 0 16px #00c3ff,
+        0 0 8px #00c3ff inset,
+        0 0 12px #ffe600 inset;
+    box-sizing: border-box;
+}
+
+
+
+#game-container {
+    margin: 40px auto;
+    width: 80vw;
+    height: 60vh;
+    background:
+        linear-gradient(135deg, #23236a 0%, #1a1a2e 100%),
+        repeating-linear-gradient(0deg, #2d2d7a 0px, #2d2d7a 2px, transparent 2px, transparent 40px),
+        repeating-linear-gradient(90deg, #2d2d7a 0px, #2d2d7a 2px, transparent 2px, transparent 40px);
+    border-radius: 20px;
+    border: 3px solid #00c3ff;
+    box-shadow:
+        0 0 16px #00c3ff,
+        0 0 8px #00c3ff inset,
+        0 0 12px #ffe600 inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 8px;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.shape.square {
+    width: 60px;
+    height: 60px;
+    background: #00c3ff;
+    border: 4px solid #ffe600;
+    box-shadow: 0 0 16px #00c3ff;
+    top: 10%;
+    left: 15%;
+}
+.shape.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid #ff0080;
+    filter: drop-shadow(0 0 8px #ff0080);
+    top: 70%;
+    left: 70%;
+}
+.shape.circle {
+    width: 50px;
+    height: 50px;
+    background: #ffe600;
+    border-radius: 50%;
+    border: 4px solid #00c3ff;
+    box-shadow: 0 0 16px #ffe600;
+    top: 60%;
+    left: 30%;
+}
