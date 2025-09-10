@@ -1,0 +1,15 @@
+{
+  "name": "shape-survivors",
+  "version": "1.0.0",
+  "description": "A geometric battle arena game using only HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": ["game", "javascript", "html5", "canvas", "shapes", "survival"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

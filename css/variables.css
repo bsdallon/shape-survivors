@@ -1,0 +1,46 @@
+/* CSS Custom Properties - Design System */
+:root {
+  /* Colors */
+  --color-primary: #00ff00;      /* Bright green for player */
+  --color-secondary: #ff0040;    /* Red for enemies */
+  --color-accent: #00bfff;       /* Blue for power-ups */
+  --color-warning: #ffaa00;      /* Orange for warnings */
+  
+  --color-background: #0a0a0a;   /* Dark background */
+  --color-surface: #1a1a1a;     /* UI surfaces */
+  --color-text: #ffffff;         /* White text */
+  --color-text-secondary: #cccccc; /* Light gray text */
+  
+  /* Geometric shapes */
+  --player-size: 20px;
+  --enemy-small-size: 15px;
+  --enemy-medium-size: 25px;
+  --enemy-large-size: 35px;
+  
+  /* Game dimensions */
+  --game-width: 800px;
+  --game-height: 600px;
+  
+  /* UI spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* Typography */
+  --font-family: 'Courier New', monospace;
+  --font-size-small: 14px;
+  --font-size-medium: 18px;
+  --font-size-large: 24px;
+  --font-size-xlarge: 36px;
+  
+  /* Animation */
+  --transition-fast: 0.15s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Borders and shadows */
+  --border-radius: 4px;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
